@@ -68,7 +68,7 @@ img {
   font-weight: 1000;
 }
 
-/* Header */
+/*! Header */
 
 .hero {
   background: url('../images/home/showcase.jpg') no-repeat center center/cover;
@@ -96,7 +96,7 @@ img {
   margin: 20px 0 30px;
 }
 
-/* Cover Back Ground as back */
+/*! Cover Back Ground as back */
 .hero:before {
   content: '';
   position: absolute;
@@ -136,4 +136,8 @@ img {
   border-radius: 50%;
   margin: 15%;
   margin-bottom: 15px;
+}
+
+.cases img:hover {
+  opacity: 0.7;
 }

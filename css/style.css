@@ -110,3 +110,30 @@ img {
 .hero * {
   z-index: 10;
 }
+
+.flex-time {
+  align-items: center;
+  justify-content: center;
+  padding-left: 540px;
+}
+
+/* Icons */
+
+.icons {
+  padding: 20px;
+  margin-top: -140px;
+}
+
+.icons h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.icons i {
+  background-color: #dc143c;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 50%;
+  margin: 15%;
+  margin-bottom: 15px;
+}

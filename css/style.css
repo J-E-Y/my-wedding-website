@@ -17,8 +17,6 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  /* background: url('https://cdn.pixabay.com/photo/2016/02/12/14/05/rings-1196145_1280.jpg')
-    no-repeat center center/cover; */
   background: #333;
   height: 20vh;
   align-items: center;
@@ -26,6 +24,8 @@ body {
   text-align: center;
 }
 
+/*! animated----------------------------------------------------> */
+/* 
 .animated {
   font-family: 'Charm', cursive;
   margin: 0;
@@ -37,7 +37,7 @@ body {
   color: transparent;
   animation: moveBg 90s linear infinite;
   -webkit-animation: moveBg 90s linear infinite;
-}
+} */
 
 /*!  Text Background Animation */
 
@@ -133,6 +133,21 @@ img {
   margin: 20px 0 30px;
 }
 
+.hero * {
+  z-index: 10;
+}
+
+.hero.blog {
+  background: url('../images/home/blog.jpg') no-repeat center center/cover;
+  height: 50vh;
+}
+
+.flex-time {
+  align-items: center;
+  justify-content: center;
+  padding-left: 540px;
+}
+
 /*! Main */
 
 .wedding-online {
@@ -155,29 +170,19 @@ img {
 
 /*! Cover Back Ground as black */
 
-.hero:before {
-  /* content: '';
+/* .hero:before {
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6); */
-}
-
-.hero * {
-  z-index: 10;
-}
-
-.flex-time {
-  align-items: center;
-  justify-content: center;
-  padding-left: 540px;
-}
+  background: rgba(0, 0, 0, 0.6);
+} */
 
 /*! Icons */
 
-.icons {
+/* .icons {
   padding: 20px;
   margin-top: -140px;
 }
@@ -194,7 +199,7 @@ img {
   border-radius: 50%;
   margin: 15%;
   margin-bottom: 15px;
-}
+} */
 
 .cases img:hover {
   opacity: 0.7;

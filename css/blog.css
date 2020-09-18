@@ -239,3 +239,23 @@ img {
 }
 
 /*?-------------------------------------------------------------------------------  */
+
+/*! Footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+.footer a {
+  color: #fff;
+}
+
+.footer .social > * {
+  margin-right: 30px;
+}
+
+.footer a:hover {
+  color: #dc143c;
+}

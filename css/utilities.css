@@ -1,7 +1,7 @@
 /*! Text Colors */
 
 .text-primary {
-  color: #683b44;
+  color: #dc143c;
   margin: 14px;
 }
 
@@ -45,8 +45,14 @@
 
 .btn-light,
 .bg-light {
-  /* background: #f4f4f4;
-  color: #333; */
+  background: #f4f4f4;
+  color: #333;
+}
+
+.btn-green,
+.bg-green {
+  background: #3cb371;
+  color: #333;
 }
 
 .btn-outline {

@@ -39,7 +39,8 @@ body {
   -webkit-animation: moveBg 90s linear infinite;
 }
 
-/* Text Background Animation */
+/*!  Text Background Animation */
+
 @keyframes moveBg {
   0% {
     background-position: 0% 30%;
@@ -132,7 +133,27 @@ img {
   margin: 20px 0 30px;
 }
 
-/*! Cover Back Ground as back */
+/*! Main */
+
+.wedding-online {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 60px 60px;
+  font-size: 30px;
+}
+.wedding-online p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+/*! Cover Back Ground as black */
 
 .hero:before {
   /* content: '';
@@ -177,4 +198,18 @@ img {
 
 .cases img:hover {
   opacity: 0.7;
+}
+
+.gift {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 100px;
+  color: blue;
+  padding-bottom: 70px;
+}
+
+.section-gift-header h3 {
+  font-weight: bold;
+  font-size: 35px;
 }

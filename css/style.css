@@ -224,9 +224,9 @@ img {
   font-size: 35px;
 }
 
-/*! Mobile  */
+/*! Mobile */
 
-@media (max-width: 768px) {
+@media (max-width: 568px) {
   .navbar {
     flex-direction: column;
     height: 120px;
@@ -237,13 +237,19 @@ img {
     padding: 10px 10px;
     margin: 0 3px;
   }
-  .flex-times {
-    flex-direction: column;
+
+  .flex-items {
+    flex-direction: row;
   }
+
   .flex-columns .column,
   .flex-grid .column {
     flex: 100%;
     max-width: 100%;
+  }
+
+  .team img {
+    width: 70%;
   }
 }
 

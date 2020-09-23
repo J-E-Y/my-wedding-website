@@ -13,7 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <link rel="stylesheet" href="css/utilities.css" />
     <link rel="stylesheet" href="css/style.css" />
 
@@ -23,7 +23,7 @@
     <!-- !Navbar -->
 
     <header class="hero">
-      <div class="navbar" id="navbar">
+      <div class="navbar top" id="navbar">
         <h1 class="logo">
           JJ<span class="text-primary"><i class="far fa-heart"></i></span>EC
         </h1>
@@ -158,36 +158,68 @@
       <section id="gallery" class="cases flex-grid section-padding">
         <div class="row">
           <div class="column">
-            <img src="images/cases/cases1.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases2.jpg" style="padding: 1%" alt="" />
+            <a
+              href="images/cases/cases1.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases1.jpg" style="padding: 1%" alt=""
+            /></a>
+            <a
+              href="images/cases/cases2.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases2.jpg" style="padding: 1%" alt=""
+            /></a>
           </div>
           <div class="column">
-            <img src="images/cases/cases3.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases4.jpg" style="padding: 1%" alt="" />
+            <a
+              href="images/cases/cases3.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases3.jpg" style="padding: 1%" alt=""
+            /></a>
+            <a
+              href="images/cases/case4.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases4.jpg" style="padding: 1%" alt=""
+            /></a>
           </div>
           <div class="column">
-            <img src="images/cases/cases5.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases6.jpg" style="padding: 1%" alt="" />
+            <a
+              href="images/cases/cases5.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases5.jpg" style="padding: 1%" alt=""
+            /></a>
+            <a
+              href="images/cases/cases6.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases6.jpg" style="padding: 1%" alt=""
+            /></a>
           </div>
           <div class="column">
-            <img src="images/cases/cases7.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases8.jpg" style="padding: 1%" alt="" />
-          </div>
-          <div class="column">
-            <img src="images/cases/cases7.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases8.jpg" style="padding: 1%" alt="" />
-          </div>
-          <div class="column">
-            <img src="images/cases/cases7.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases8.jpg" style="padding: 1%" alt="" />
-          </div>
-          <div class="column">
-            <img src="images/cases/cases7.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases8.jpg" style="padding: 2%" alt="" />
-          </div>
-          <div class="column">
-            <img src="images/cases/cases7.jpg" style="padding: 1%" alt="" />
-            <img src="images/cases/cases8.jpg" style="padding: 1%" alt="" />
+            <a
+              href="images/cases/cases7.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases7.jpg" style="padding: 1%" alt=""
+            /></a>
+            <a
+              href="images/cases/cases8.jpg"
+              data-lightbox="cases"
+              data-title="weeding photo"
+            >
+              <img src="images/cases/cases8.jpg" style="padding: 1%" alt=""
+            /></a>
           </div>
         </div>
       </section>
@@ -238,5 +270,47 @@
       <p>John & Esther &copy: 2020-Wedding Website</p>
     </footer>
     <script src="script.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.5.0.min.js"
+      integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/lightbox.min.js"></script>
+    <script>
+      const navbar = document.getElementById('navbar');
+      let scrolled = false;
+
+      window.onscroll = function () {
+        if (window.pageYOffset > 100) {
+          navbar.classList.remove('top');
+          if (!scrolled) {
+            navbar.style.transform = 'translateY(-70px)';
+          }
+          setTimeout(function () {
+            navbar.style.transform = 'translateY(0)';
+            scrolled = true;
+          }, 200);
+        } else {
+          navbar.classList.add('top');
+          scrolled = false;
+        }
+      };
+
+      // Smooth Scrolling
+      $('#navbar a, .btn').on('click', function (e) {
+        if (this.hash !== '') {
+          e.preventDefault();
+
+          const hash = this.hash;
+
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top - 100,
+            },
+            800,
+          );
+        }
+      });
+    </script>
   </body>
 </html>

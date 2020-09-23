@@ -17,6 +17,7 @@
   padding: 10px 30px;
   color: #fff;
   background-color: #dc143c;
+
   border: none;
   border-radius: 5px;
 }
@@ -27,7 +28,10 @@
 
 .btn-primary,
 .bg-primary {
-  background: #dc143c;
+  /* background: #dc143c; */
+  background: #394d44;
+  /* background: #303437; */
+  /* background:#a0a294 */
   color: #fff;
 }
 

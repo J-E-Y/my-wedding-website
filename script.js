@@ -3,6 +3,7 @@ const next = document.querySelector('#next');
 const prev = document.querySelector('#prev');
 const auto = false; // Auto scroll
 const intervalTime = 5000;
+const logo = document.querySelector('.logo');
 let slideInterval;
 
 const nextSlide = () => {
@@ -59,3 +60,9 @@ if (auto) {
   // Run next slide at interval time
   slideInterval = setInterval(nextSlide, intervalTime);
 }
+
+function home() {
+  console.log('hello');
+}
+
+logo.addEventListener('click', home);

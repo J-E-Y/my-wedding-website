@@ -112,6 +112,10 @@ img {
   font-weight: 1000;
 }
 
+.logo {
+  cursor: pointer;
+}
+
 /*! Header */
 
 /* ? main fisrt section */

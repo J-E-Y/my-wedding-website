@@ -238,6 +238,7 @@
       <section id="message" class="message">
         <div class="wedding-online">
           <h2>Message</h2>
+          <div class="commentbox"></div>
         </div>
       </section>
     </main>
@@ -259,6 +260,13 @@
       <p>John & Esther &copy: 2020-Wedding Website</p>
     </footer>
     <script src="script.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"
+    >
+      const commentBox = require('commentbox.io');
+      commentBox('5688218229932032-proj');
+    </script>
     <script
       src="https://code.jquery.com/jquery-3.5.0.min.js"
       integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="

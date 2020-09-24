@@ -283,6 +283,16 @@ img {
 
 .slide.current {
   opacity: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.slide.current.main {
+  font-size: 50px;
 }
 
 .slide .content {
@@ -348,8 +358,7 @@ img {
 /*! Backgorund Images */
 
 .slide:first-child {
-  background: url('https://source.unsplash.com/RyRpq9SUwAU/1600x900') no-repeat
-    center top/cover;
+  background: url('../images/home/showcase.jpg') no-repeat center center/cover;
 }
 .slide:nth-child(2) {
   background: url('https://source.unsplash.com/BeOW_PJjA0w/1600x900') no-repeat

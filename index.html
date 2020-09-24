@@ -227,7 +227,6 @@
             onclick="window.open('https://www.paypal.com/paypalme/johnestherjung')"
           ></i>
         </div>
-        <div class="commentbox"></div>
       </section>
 
       <!-- ?animated---------------------------------------------------->
@@ -238,7 +237,8 @@
 
       <section id="message" class="message">
         <div class="wedding-online">
-          <h2>Message</h2>
+          <h2 id="demo">Message</h2>
+          <div class="commentbox"></div>
         </div>
       </section>
     </main>
@@ -260,11 +260,14 @@
       <p>John & Esther &copy: 2020-Wedding Website</p>
     </footer>
     <script src="script.js"></script>
-    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js">
-      import commentBox from 'commentbox.io';
-        const commentBox = require('commentbox.io');
+    <script src="comment.js"></script>
+    <script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+    <script>
+      window.addEventListener('load', function () {
         commentBox('5727652136615936-proj');
+      });
     </script>
+
     <script
       src="https://code.jquery.com/jquery-3.5.0.min.js"
       integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="

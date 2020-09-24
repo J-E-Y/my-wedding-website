@@ -226,6 +226,7 @@ img {
   font-size: 100px;
   color: #394d44;
   padding-bottom: 70px;
+  cursor: pointer;
 }
 
 .section-gift-header h3 {

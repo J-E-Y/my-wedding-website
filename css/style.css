@@ -408,9 +408,7 @@ img {
 }
 
 .commentbox {
-  margin-top: 20px;
-  position: flex;
-  flex-direction: center;
+  margin-top: 50px;
 }
 
 .message {

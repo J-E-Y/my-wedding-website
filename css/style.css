@@ -406,3 +406,13 @@ img {
 .footer a:hover {
   color: #dc143c;
 }
+
+.commentbox {
+  margin-top: 20px;
+  position: flex;
+  flex-direction: center;
+}
+
+.message {
+  margin-top: 80px;
+}

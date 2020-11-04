@@ -77,6 +77,25 @@ img {
 .text img {
   width: 10%;
   cursor: pointer;
+  border: 0;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.text img:focus {
+  outline: 0;
+}
+
+.text img:hover {
+  background: RGB(173, 216, 230, 0.5);
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.text img:active {
+  transform: scale(0.98);
 }
 
 /*! Navbar */

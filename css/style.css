@@ -75,7 +75,7 @@ img {
   width: 100%;
 }
 .text img {
-  width: 10%;
+  width: 100px;
   cursor: pointer;
   border: 0;
   padding: 10px 20px;
@@ -194,7 +194,7 @@ img {
   justify-content: center;
   height: 100%;
   padding: 40px 40px;
-  font-size: 50px;
+  font-size: 40px;
   /* margin-bottom: ; */
 }
 .wedding-online p {

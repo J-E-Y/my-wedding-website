@@ -453,9 +453,10 @@ img {
 
 @media (max-width: 500px) {
   .slide .content {
-    bottom: -300px;
+    bottom: -600px;
     left: 0;
     width: 100%;
+    font-size: 20px;
   }
 
   .slide.current .content {

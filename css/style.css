@@ -252,9 +252,7 @@ img {
   font-size: 20px;
   color: #333;
 }
-.wedding-online img {
-  cursor: pointer;
-}
+
 .contact {
   width: 40%;
   background-color: white;
@@ -333,7 +331,6 @@ img {
   font-size: 100px;
   color: #394d44;
   padding-bottom: 70px;
-  cursor: pointer;
 }
 
 .section-gift-header h3 {

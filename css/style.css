@@ -207,7 +207,8 @@ img {
   height: 100%;
   padding: 40px 40px;
   font-size: 30px;
-  color: #fff;
+  /* color: #fff; */
+  color: #1d1d20;
 }
 .timetable-online h2 {
   display: flex;
@@ -225,7 +226,8 @@ img {
   justify-content: center;
   text-align: center;
   font-size: 17px;
-  color: rgb(220, 220, 220);
+  /* color: rgb(220, 220, 220); */
+  color: #575760;
 }
 
 .gift-online {
@@ -292,7 +294,7 @@ img {
   margin-bottom: 40px;
 }
 .differ-color {
-  color: #fff;
+  color: black;
 }
 .team img {
   border-radius: 50%;
@@ -342,16 +344,20 @@ img {
 }
 
 .cases {
-  background-color: #394d44;
+  /* background-color: #394d44; */
+  background-color: #f1e5ec;
 }
 .gallery {
-  background-color: #394d44;
+  /* background-color: #5c6461; */
+  background-color: #f1e5ec;
 }
 .message {
-  background-color: #394d44;
+  /* background-color: #394d44; */
+  background-color: #f1e5ec;
 }
 .timetable {
-  background-color: #394d44;
+  /* background-color: #394d44; */
+  background-color: #f1e5ec;
 }
 .gift {
   align-items: center;
@@ -553,7 +559,7 @@ img {
 /*! Backgorund Images */
 
 .slide:first-child {
-  background: url('../images/home/showcase1.jpg') no-repeat bottom center/cover;
+  background: url('../images/home/showcase2.jpg') no-repeat center center/cover;
 }
 .slide:nth-child(2) {
   background: url('../images/1.png') no-repeat bottom center/cover;

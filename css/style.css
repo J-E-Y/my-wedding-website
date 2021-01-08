@@ -189,7 +189,7 @@ img {
 
 .wedding-online a {
   color: blue;
-  font-size: 15px;
+  font-size: 20px;
 }
 
 .wedding-online {
@@ -230,11 +230,19 @@ img {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 17px;
+  font-size: 25px;
   /* color: rgb(220, 220, 220); */
   color: #575760;
 }
 
+.gift-online p {
+  display: flex;
+  flex-direction: column;
+  height: 2vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
 .gift-online {
   display: flex;
   flex-direction: column;
@@ -254,16 +262,14 @@ img {
   font-size: 17px;
 }
 
-/* .wedding-online p {
+.wedding-online p {
   display: flex;
   flex-direction: column;
-  height: 20vh;
+  height: 2vh;
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 20px;
-  margin-top: 50px;
-} */
+}
 .wedding-online h4 {
   display: flex;
   flex-direction: column;

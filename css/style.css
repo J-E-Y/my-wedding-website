@@ -187,6 +187,11 @@ img {
 
 /*! Main */
 
+.wedding-online a {
+  color: blue;
+  font-size: 15px;
+}
+
 .wedding-online {
   display: flex;
   flex-direction: column;

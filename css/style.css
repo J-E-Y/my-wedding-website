@@ -247,19 +247,15 @@ img {
 .gift-online span {
   display: flex;
   flex-direction: column;
-  height: 5vh;
   align-items: center;
   justify-content: center;
-  text-align: center;
   font-size: 21px;
 }
 .gift-online div {
   display: flex;
   flex-direction: column;
-  height: 5vh;
   align-items: center;
   justify-content: center;
-  text-align: center;
   font-size: 23px;
 }
 

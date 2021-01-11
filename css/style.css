@@ -215,6 +215,13 @@ img {
   /* color: #fff; */
   color: #1d1d20;
 }
+
+.timetable-online a {
+  padding-top: 50px;
+  color: blue;
+  font-size: 40px;
+}
+
 /* .timetable-online h2 {
   display: flex;
   flex-direction: column;
@@ -608,7 +615,7 @@ img {
   flex-direction: column;
   justify-content: center;
   text-align: center;
-  height: 200px;
+  height: 100px;
 }
 .footer a {
   color: #fff;

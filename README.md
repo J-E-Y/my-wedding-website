@@ -6,4 +6,4 @@ A simple wedding website project I made using HTML CSS Javascript , no framework
 
 ### Preview
 
-<img width="1432" alt="Screen Shot 2021-03-10 at 5 45 47 PM" src="https://user-images.githubusercontent.com/47516835/110674031-63efc680-81c9-11eb-898a-756d4293fb84.png">
+![Home_wedding](https://user-images.githubusercontent.com/47516835/140039737-06fa9b6d-3180-4e9e-ac7b-7be1b5732b96.gif)
